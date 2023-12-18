@@ -1,0 +1,12 @@
+C:\Users\shubh\source\repos\BlogTracker\dbs\bin\Debug\dbs.dll.config
+C:\Users\shubh\source\repos\BlogTracker\dbs\bin\Debug\dbs.dll
+C:\Users\shubh\source\repos\BlogTracker\dbs\bin\Debug\dbs.pdb
+C:\Users\shubh\source\repos\BlogTracker\dbs\bin\Debug\EntityFramework.dll
+C:\Users\shubh\source\repos\BlogTracker\dbs\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\shubh\source\repos\BlogTracker\dbs\bin\Debug\EntityFramework.xml
+C:\Users\shubh\source\repos\BlogTracker\dbs\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\shubh\source\repos\BlogTracker\dbs\obj\Debug\dbs.csproj.AssemblyReference.cache
+C:\Users\shubh\source\repos\BlogTracker\dbs\obj\Debug\dbs.csproj.CoreCompileInputs.cache
+C:\Users\shubh\source\repos\BlogTracker\dbs\obj\Debug\dbs.csproj.CopyComplete
+C:\Users\shubh\source\repos\BlogTracker\dbs\obj\Debug\dbs.dll
+C:\Users\shubh\source\repos\BlogTracker\dbs\obj\Debug\dbs.pdb

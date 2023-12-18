@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="blogModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="blogInfo">
+    <Key>
+      <PropertyRef Name="title" />
+    </Key>
+    <Property Name="title" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="blogId" Type="int" />
+    <Property Name="subject" Type="varchar" MaxLength="50" />
+    <Property Name="dateOfCreation" Type="datetime" />
+    <Property Name="empEmailId" Type="varchar" MaxLength="50" />
+    <Property Name="blogUrl" Type="varchar" MaxLength="2048" />
+  </EntityType>
+  <EntityType Name="emp">
+    <Key>
+      <PropertyRef Name="emailId" />
+    </Key>
+    <Property Name="emailId" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+    <Property Name="dateOfJoin" Type="datetime" />
+    <Property Name="passcode" Type="int" />
+  </EntityType>
+  <EntityContainer Name="blogModelStoreContainer">
+    <EntitySet Name="blogInfo" EntityType="Self.blogInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="emp" EntityType="Self.emp" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

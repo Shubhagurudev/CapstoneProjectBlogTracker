@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="blogModelStoreContainer" CdmEntityContainer="blogEntities">
+    <EntitySetMapping Name="blogInfoes">
+      <EntityTypeMapping TypeName="blogModel.blogInfo">
+        <MappingFragment StoreEntitySet="blogInfo">
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="blogId" ColumnName="blogId" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="dateOfCreation" ColumnName="dateOfCreation" />
+          <ScalarProperty Name="empEmailId" ColumnName="empEmailId" />
+          <ScalarProperty Name="blogUrl" ColumnName="blogUrl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="emps">
+      <EntityTypeMapping TypeName="blogModel.emp">
+        <MappingFragment StoreEntitySet="emp">
+          <ScalarProperty Name="emailId" ColumnName="emailId" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="dateOfJoin" ColumnName="dateOfJoin" />
+          <ScalarProperty Name="passcode" ColumnName="passcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
